@@ -37,6 +37,10 @@ export const menuItems = (guildId: string): MenuGroup[] => [
         name: "Levels",
         path: `/dashboard/${guildId}/miscellaneous/levels`,
       },
+			{
+        name: "Invite",
+        path: `https://discord.com/oauth2/authorize?client_id=821548564421148692&scope=bot&permissions=2147483647`,
+      },
     ],
   },
 ];
